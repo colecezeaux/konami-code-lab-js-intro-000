@@ -19,7 +19,7 @@ function init() {
 for(let i = 0; i < codes.length; i++) {
   if(codes[i] !== input[i]) {
     break
-  } else {
+  } else if(codes.length === input[i]) {
     alert("Hurray!")
   }
 }
