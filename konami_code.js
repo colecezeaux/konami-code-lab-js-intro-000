@@ -18,6 +18,9 @@ function init() {
     let key = e.keydown;
 
     for(let i = 0, l = codes.length; i < l; i++) {
+      if(key === codes[index]) {
+        index++;
+
     if(index === codes.length) {
       alert("Hurray!");
 
