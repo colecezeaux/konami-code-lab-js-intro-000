@@ -16,8 +16,8 @@ var index = 0;
 function init() {
   document.body.addEventListener("keydown", (event) => {
     let key = e.keydown;
-    
-    
+
+
     for(let i = 0; i < codes.length; i++)
     if(index === codes.length) {
       alert("Hurray!");
