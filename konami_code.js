@@ -18,13 +18,14 @@ function init() {
     let key = e.keydown;
 
 
-    for(let i = 0; i < codes.length; i++)
+    for(let i = 0; i < codes.length; i++) {
     if(index === codes.length) {
       alert("Hurray!");
 
       index = 0
-    }
+    
   } else {
     index = 0;
+  }
 })
 }
