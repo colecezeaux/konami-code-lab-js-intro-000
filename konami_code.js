@@ -23,6 +23,7 @@ var index = 0
       }
       if (index === codes.length) {
         alert("Hurray!");
+        index = 0
       }
   })
 }
