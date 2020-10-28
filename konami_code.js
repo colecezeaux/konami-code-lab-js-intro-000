@@ -21,9 +21,8 @@ var index = 0
       if (key === codes[index]) {
         index++;
       }
-
+      if (index === codes.length) {
+        alert("Hurray!");
+      }
   })
-  if (index === codes.length) {
-    alert("Hurray!");
-  }
 }
