@@ -22,6 +22,6 @@ for(let i = 0; i < codes.length; i++) {
 }
   if(n === codes) {
     alert("Hurray!")
-  } 
+  }
   })
 }
