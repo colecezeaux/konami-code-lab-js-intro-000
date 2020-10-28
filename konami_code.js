@@ -19,7 +19,8 @@ function init() {
     if(codes[i] === l) {
       alert("Hurray!");
   } else {
-    index = 0;
+    continue
+  ;
   } }
 })
 }
