@@ -19,7 +19,7 @@ function init() {
 
     for(let i = 0, l = codes.length; i < l; i++) {
       if(key === codes[index]) {
-        index++;
+        continue;
 
     if(index === codes.length) {
       alert("Hurray!");
