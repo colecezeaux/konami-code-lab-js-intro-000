@@ -18,7 +18,7 @@ function init() {
     // Now, how can we check for which specific key was pressed?
 var n = []
 for(let i = 0; i < codes.length; i++) {
-  n.push(e.input[i])
+  n.push(e.key[i])
 }
   if(n === codes) {
     alert("Hurray!")
