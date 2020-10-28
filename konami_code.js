@@ -21,7 +21,7 @@ function init() {
       if(key === codes[index]) {
         continue;
 
-    if(index === codes.length) {
+    if(index === l) {
       alert("Hurray!");
 }
   } else {
